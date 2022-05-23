@@ -6,9 +6,9 @@ module.exports = {
   extends: [
     "plugin:react/recommended",
     "plugin:@typescript-eslint/recommended",
-    // "google",
     "prettier",
     "next/core-web-vitals",
+    "plugin:storybook/recommended",
   ],
   parser: "@typescript-eslint/parser",
   parserOptions: {
