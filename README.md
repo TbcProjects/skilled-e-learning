@@ -1,3 +1,3 @@
 ## Nextjs with Chakrui starterkit
 
-- Storybook to add
+- [x] Storybook to add 
