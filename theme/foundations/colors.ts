@@ -8,7 +8,7 @@ const colors = {
     violet_red: "#F74780",
   },
   gradient: {
-    dodger_blue: "#4851FF",
+    purple_heart: "#8643DE",
     persimmon: "#FF6F48",
     persian_rose: "#F02AA6",
   },

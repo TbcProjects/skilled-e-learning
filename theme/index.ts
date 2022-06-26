@@ -33,6 +33,6 @@ const overrides = {
   },
 };
 
-const bcTheme = extendTheme(overrides);
+const SkTheme = extendTheme(overrides);
 
-export default bcTheme;
+export default SkTheme;
