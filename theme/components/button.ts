@@ -1,25 +1,44 @@
 const Button = {
   baseStyle: {
-    borderRadius: 'full',
-    fontWeight: 'black',
+    borderRadius: "full",
+    fontWeight: "black",
   },
   variants: {
     primary: {
-      bg: 'bcDeepPurple.700',
-      color: 'white',
+      fontSize: "1.125rem",
+      bg: "primary.bunting",
+      color: "white",
       _hover: {
-        bg: 'bcPeriwinkle',
-        boxShadow: 'md',
-        textDecoration: 'none',
+        bg: "primary.scampi",
+        textDecoration: "none",
       },
+      paddingX: "8",
+      paddingY: "1.625rem",
     },
     secondary: {
-      layerStyle: 'purpleOnOrange',
+      fontSize: "1.125rem",
+      lineHeight: "28px",
+      bgGradient: "linear(to-b, gradient.persimmon, gradient.persian_rose)",
+      color: "white",
       _hover: {
-        bg: 'bcOrange.300',
-        boxShadow: 'md',
-        textDecoration: 'none',
+        bg: "red",
+        boxShadow: "md",
+        textDecoration: "none",
       },
+      paddingX: "8",
+      paddingY: "7",
+    },
+    tertiary: {
+      fontSize: "1.125rem",
+      bgGradient: "linear(to-b, gradient.purple_heart, gradient.persian_rose)",
+      color: "white",
+      _hover: {
+        bg: "red",
+        boxShadow: "md",
+        textDecoration: "none",
+      },
+      paddingX: "8",
+      paddingY: "1.625rem",
     },
   },
 };
