@@ -1,61 +1,38 @@
 const textStyles = {
-  h1: {
-    fontSize: { base: '2.441rem', xl: '3.815rem' },
-    lineHeight: '1.36',
-    fontWeight: 'extrabold',
+  headingXL: {
+    fontSize: "3.5rem",
+    lineHeight: "4.375rem",
+    fontWeight: "extrabold",
   },
-  h2: {
-    fontSize: { base: '1.953rem', xl: '3.052rem' },
-    lineHeight: '1.36',
-    fontWeight: 'extrabold',
+  headingL: {
+    fontSize: "2.5rem",
+    lineHeight: "3.188rem",
+    fontWeight: "extrabold",
   },
-  h3: {
-    fontSize: { base: '1.563rem', xl: '2.441rem' },
-    lineHeight: '1.36',
-    fontWeight: 'bold',
+  headingM: {
+    fontSize: "2rem",
+    lineHeight: "2.5",
+    fontWeight: "extrabold",
   },
-  h4: {
-    fontSize: { base: '1.25rem', xl: '1.953rem' },
-    lineHeight: '1.36',
-    fontWeight: 'bold',
+  headingS: {
+    fontSize: "1.5rem",
+    lineHeight: "1.75rem",
+    fontWeight: "extrabold",
   },
-  h5: {
-    fontSize: { base: '1rem', xl: '1.563rem' },
-    lineHeight: '1.36',
-    fontWeight: 'bold',
+  bodyM: {
+    fontSize: "1.125rem",
+    lineHeight: "1.75rem",
+    fontWeight: "medium",
   },
-  h6: {
-    fontSize: { base: '0.8rem', xl: '1.25rem' },
-    lineHeight: '1.36',
-    fontWeight: 'bold',
+  bodyS: {
+    fontSize: "1rem",
+    lineHeight: "1.75rem",
+    fontWeight: "medium",
   },
-  mainMenu: {
-    fontSize: { base: 'md', lg: 'xs', xl: 'md' },
-    fontWeight: 'bold',
-    lineHeight: 'none',
-  },
-  customerMenu: {
-    fontSize: { lg: 'xs', xl: 'sm' },
-    lineHeight: 'none',
-  },
-  subMenu: {
-    fontSize: { base: 'md', lg: 'xs', '2xl': 'sm' },
-    fontWeight: 'semibold',
-    lineHeight: 'tall',
-  },
-  mobileMenu: {
-    fontSize: 'md',
-    fontWeight: 'bold',
-    lineHeight: '1',
-  },
-  footerMenu: {
-    fontSize: { base: 'sm', md: 'md' },
-    fontWeight: 'bold',
-    lineHeight: 'base',
-  },
-  smallPrint: {
-    fontSize: '.7rem',
-    lineHeight: 'tall',
+  buttonLabel: {
+    fontSize: { base: "1.953rem", xl: "3.052rem" },
+    lineHeight: "1.75rem",
+    fontWeight: "extrabold",
   },
 };
 
